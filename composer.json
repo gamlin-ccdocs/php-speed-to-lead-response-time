@@ -1,0 +1,32 @@
+{
+    "name": "vicistack/speed-to-lead-response-time",
+    "description": "Speed to Lead Response Time Optimization",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "speed",
+        "lead",
+        "response",
+        "time"
+    ],
+    "homepage": "https://vicistack.com/blog/speed-to-lead-response-time/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\SpeedToLeadResponseTime\\": "src/"
+        }
+    }
+}
